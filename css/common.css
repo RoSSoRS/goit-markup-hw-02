@@ -29,7 +29,6 @@ p {
 }
 
 .section-title {
-  margin-bottom: 72px;
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
@@ -42,7 +41,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }

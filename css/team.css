@@ -8,7 +8,7 @@
 }
 
 .team-card {
-  width: calc((100% - 72px) / 4);
+  flex: 1 1 250px;;
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
 }
