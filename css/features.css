@@ -8,15 +8,6 @@
   text-transform: capitalize;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .features-subtitle {
   margin-bottom: 8px;
   color: #2e2f42;
