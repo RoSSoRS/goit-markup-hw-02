@@ -1,33 +1,35 @@
-/* контейнер команди */
-.team-section {
-  background-color: #f9f9f9;
-  /* Свойство padding удалено */
+.team {
+  background-color: #f4f4fd;
 }
 
-/* Список  */
 .team-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  gap: 24px;
 }
 
-/* КАРТКА КОМАНДИ */
 .team-card {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
   background-color: #ffffff;
-  border: 1px solid #e0e0e0;
+}
+
+.team-content {
+  padding: 32px 0;
+}
+
+.team-name {
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   text-align: center;
-  /* Свойство border-radius удалено */
-  /* Свойства padding, display: flex, gap, flex удалены ранее */
+  letter-spacing: 0.02em;
 }
 
-/* Оформлення тексту на її елементів внутрі карточки */
-.team-card-name {
-  font-size: 18px;
-  font-weight: bold;
-  color: #333333;
-}
-
-.team-card-position {
-  font-size: 14px;
-  color: #777777;
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
 }

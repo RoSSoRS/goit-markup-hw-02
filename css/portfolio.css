@@ -1,19 +1,18 @@
 .portfolio-card {
+  width: calc((100% - 48px) / 3);
   background-color: #ffffff;
 }
 
-
 .portfolio-title {
-  line: height 1.2em;
-  letter-spacing 0.02em;
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-   
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-text {
-  font-weight 400 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

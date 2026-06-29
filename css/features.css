@@ -1,24 +1,33 @@
-/* Список переваг (батьківський контейнер) */
-.features-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Елемент переваги (картка/пункт) */
-.features-item {
-  background-color: #ffffff;
-}
-
-/* Оформлення контенту всередині переваг */
 .features-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #212121;
+  margin-bottom: 72px;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-.features-description {
-  font-size: 14px;
-  color: #757575;
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.features-subtitle {
+  margin-bottom: 8px;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.features-text {
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }

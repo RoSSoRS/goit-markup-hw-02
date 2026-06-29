@@ -1,33 +1,60 @@
-/* Шапка сайту */
-.header {
-  background-color: #ffffff;
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
-/* Контейнер навігації */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 
-/* Список посилань */
+.header-logo {
+  margin-right: 76px;
+  color: #2e2f42;
+}
+
 .nav-list {
-  list-style: none;
+  display: flex;
+  gap: 40px;
 }
 
-/* Елемент списку */
-.nav-item {
-}
-
-/* Посилання навігації */
 .nav-link {
+  display: block;
+  padding: 24px 0;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #212121;
-  text-decoration: none;
 }
 
-/*  стан посилання при наведенні */
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: #404bbf;
+}
+
+.header-address {
+  margin-left: auto;
+  font-style: normal;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
