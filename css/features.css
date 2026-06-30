@@ -1,20 +1,9 @@
 .features-title {
   margin-bottom: 72px;
-  color: #2e2f42;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .features-subtitle {
   margin-bottom: 8px;
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 
 .features-text {
